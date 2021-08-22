@@ -7,7 +7,7 @@ from config import BOT_USERNAME
 @Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        text="✨ Welcome {}!\n\n💭 **Group singer** allows you to play **music on groups** through the new Telegram's **voice chats!**\n\n💡 Find out all the **Bot's commands** and how they work by clicking on the »** 📚 Commands** button!".format(message.from_user.mention),
+        text="✨**Welcome** {}!\n\n💭 **Group singer** allows you to play **music on groups** through the new Telegram's **voice chats!**\n\n💡 Find out all the **Bot's commands** and how they work by clicking on the »** 📚 Commands** button!".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/GroupMuSicPlayBot?startgroup=true")
