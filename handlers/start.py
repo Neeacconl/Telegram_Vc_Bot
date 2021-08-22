@@ -10,9 +10,9 @@ async def start(_, message: Message):
         text="✨**Welcome** {}!\n\n💭 **Group singer** allows you to **play** **music on groups** through the new Telegram's **voice chats!**\n\n💡 Find out all the **Bot's commands** and how they **work** by clicking on the »** 📚 Commands** **button!** or /cmdlist".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/GroupMuSicPlayBot?startgroup=true")
+            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/Groupsingerbot?startgroup=true")
             ],[
-            InlineKeyboardButton("💬 Group", url="https://t.me/MusicBotSupports"),
+            InlineKeyboardButton("📚 Commands ", url="https://telegra.ph/Group-singer-Bot-08-22"),
             InlineKeyboardButton("Channel 🔊", url="https://t.me/GroupMusicXNews")
             ],[
             InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
