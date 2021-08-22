@@ -13,7 +13,7 @@ async def start(_, message: Message):
             InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/Groupsingerbot?startgroup=true")
             ],[
             InlineKeyboardButton("📚 Commands ", url="https://telegra.ph/Group-singer-Bot-08-22"),
-            InlineKeyboardButton("Channel 🔊", url="https://t.me/GroupMusicXNews")
+            InlineKeyboardButton("💚 Donate", url="https://t.me/GroupMusicXNews")
             ],[
             InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
             ]]
